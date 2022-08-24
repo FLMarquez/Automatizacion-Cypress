@@ -1,0 +1,16 @@
+{
+  "name": "prueba_cypress",
+  "version": "1.0.0",
+  "description": "Prueba Cypress",
+  "main": "index.js",
+  "scripts": {
+    "pruebas-edge": "cypress run --spec cypress/e2e/smoketestbanco.cy.js -- browser edge",
+    "pruebas-chrome": "cypress run --spec cypress/e2e/smoketestbanco.cy.js -- browser chrome",
+    "pruebas-firefox": "cypress run --spec cypress/e2e/smoketestbanco.cy.js -- browser firefox"
+  },
+  "author": "Lucas Marquez",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.6.0"
+  }
+}
